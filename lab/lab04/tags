@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LAB_SOURCE_FILE	./lab04.py	/^LAB_SOURCE_FILE = __file__$/;"	v
+add_chars	./lab04.py	/^def add_chars(w1, w2):$/;"	f
+max_subseq	./lab04.py	/^def max_subseq(n, t):$/;"	f
+paths	./lab04.py	/^def paths(m, n):$/;"	f
+skip_add	./lab04.py	/^def skip_add(n):$/;"	f
+summation	./lab04.py	/^def summation(n, term):$/;"	f
+this_file	./lab04.py	/^this_file = __file__$/;"	v

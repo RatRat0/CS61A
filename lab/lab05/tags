@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ExclusionChecker	construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+_NAMES	construct_check.py	/^_NAMES = {$/;"	v
+__init__	construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+_report	construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+add_trees	lab05.py	/^def add_trees(t1, t2):$/;"	f
+berry_finder	lab05.py	/^def berry_finder(t):$/;"	f
+branches	lab05.py	/^def branches(tree):$/;"	f
+build_successors_table	lab05.py	/^def build_successors_table(tokens):$/;"	f
+change_abstraction	lab05.py	/^def change_abstraction(change):$/;"	f
+check	construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check_abstraction	lab05.py	/^def check_abstraction():$/;"	f
+check_city_abstraction	lab05.py	/^def check_city_abstraction():$/;"	f
+closer_city	lab05.py	/^def closer_city(lat, lon, city_a, city_b):$/;"	f
+construct_sent	lab05.py	/^def construct_sent(word, table):$/;"	f
+coords	lab05.py	/^def coords(fn, seq, lower, upper):$/;"	f
+copy_tree	lab05.py	/^def copy_tree(t):$/;"	f
+couple	lab05.py	/^def couple(s, t):$/;"	f
+distance	lab05.py	/^def distance(city_a, city_b):$/;"	f
+errors	construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+generic_visit	construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+get_lat	lab05.py	/^def get_lat(city):$/;"	f
+get_lon	lab05.py	/^def get_lon(city):$/;"	f
+get_name	lab05.py	/^def get_name(city):$/;"	f
+is_leaf	lab05.py	/^def is_leaf(tree):$/;"	f
+is_tree	lab05.py	/^def is_tree(tree):$/;"	f
+label	lab05.py	/^def label(tree):$/;"	f
+make_city	lab05.py	/^def make_city(name, lat, lon):$/;"	f
+print_tree	lab05.py	/^def print_tree(t, indent=0):$/;"	f
+random_sent	lab05.py	/^def random_sent():$/;"	f
+riffle	lab05.py	/^def riffle(deck):$/;"	f
+shakespeare_tokens	lab05.py	/^def shakespeare_tokens(path='shakespeare.txt', url='http:\/\/composingprograms.com\/shakespeare.txt'):$/;"	f
+sprout_leaves	lab05.py	/^def sprout_leaves(t, leaves):$/;"	f
+tree	lab05.py	/^def tree(label, branches=[]):$/;"	f
+visit_Call	construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker

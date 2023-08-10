@@ -1,0 +1,463 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANT_IMAGE_HEIGHT	ants_gui.py	/^ANT_IMAGE_HEIGHT = 71$/;"	v
+ANT_IMAGE_WIDTH	ants_gui.py	/^ANT_IMAGE_WIDTH = 65$/;"	v
+ASSETS_DIR	gui.py	/^ASSETS_DIR = "assets\/"$/;"	v
+Ant	ants.py	/^class Ant(Insect):$/;"	c
+AntHomeBase	ants.py	/^class AntHomeBase(Place):$/;"	c
+AntRemover	ants.py	/^class AntRemover(Ant):$/;"	c
+AntsGUI	ants_gui.py	/^class AntsGUI:$/;"	c
+AntsWinException	ants.py	/^class AntsWinException(GameOverException):$/;"	c
+AssaultPlan	ants.py	/^class AssaultPlan(dict):$/;"	c
+BACK_EASEIN	assets/enchant.js	/^    BACK_EASEIN: function(t, b, c, d, s) {$/;"	m	class:enchant.Easing
+BACK_EASEINOUT	assets/enchant.js	/^    BACK_EASEINOUT: function(t, b, c, d, s) {$/;"	m	class:enchant.Easing
+BACK_EASEOUT	assets/enchant.js	/^    BACK_EASEOUT: function(t, b, c, d, s) {$/;"	m	class:enchant.Easing
+BEE_IMAGE_WIDTH	ants_gui.py	/^BEE_IMAGE_WIDTH = 58$/;"	v
+BOUNCE_EASEIN	assets/enchant.js	/^    BOUNCE_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+BOUNCE_EASEINOUT	assets/enchant.js	/^    BOUNCE_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+BOUNCE_EASEOUT	assets/enchant.js	/^    BOUNCE_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+BROWSER	assets/enchant.js	/^    BROWSER: (function(ua) {$/;"	p	class:enchant.ENV
+Bee	ants.py	/^class Bee(Insect):$/;"	c
+BeesWinException	ants.py	/^class BeesWinException(GameOverException):$/;"	c
+BodyguardAnt	ants.py	/^class BodyguardAnt(ContainerAnt):$/;"	c
+Boss	ants.py	/^class Boss(Wasp, Hornet):$/;"	c
+CIRC_EASEIN	assets/enchant.js	/^    CIRC_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+CIRC_EASEINOUT	assets/enchant.js	/^    CIRC_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+CIRC_EASEOUT	assets/enchant.js	/^    CIRC_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+CRYPT	ants_gui.py	/^CRYPT = 650$/;"	v
+CUBIC_EASEIN	assets/enchant.js	/^    CUBIC_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+CUBIC_EASEINOUT	assets/enchant.js	/^    CUBIC_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+CUBIC_EASEOUT	assets/enchant.js	/^    CUBIC_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+Canvas	graphics.py	/^class Canvas(object):$/;"	c
+Constructor	assets/enchant.js	/^            Constructor.prototype.initialize.apply(this, arguments);$/;"	c	class:enchant.Class.create
+Constructor	assets/enchant.js	/^    Constructor.prototype = Object.create(superclass.prototype, definition);$/;"	c
+Constructor	assets/enchant.js	/^    var Constructor = function() {$/;"	f	function:enchant.Class.create
+ContainerAnt	ants.py	/^class ContainerAnt(Ant):$/;"	c
+CustomThreadingTCPServer	gui.py	/^class CustomThreadingTCPServer(socketserver.ThreadingTCPServer):$/;"	c
+ELASTIC_EASEIN	assets/enchant.js	/^    ELASTIC_EASEIN: function(t, b, c, d, a, p) {$/;"	m	class:enchant.Easing
+ELASTIC_EASEINOUT	assets/enchant.js	/^    ELASTIC_EASEINOUT: function(t, b, c, d, a, p) {$/;"	m	class:enchant.Easing
+ELASTIC_EASEOUT	assets/enchant.js	/^    ELASTIC_EASEOUT: function(t, b, c, d, a, p) {$/;"	m	class:enchant.Easing
+EXPO_EASEIN	assets/enchant.js	/^    EXPO_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+EXPO_EASEINOUT	assets/enchant.js	/^    EXPO_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+EXPO_EASEOUT	assets/enchant.js	/^    EXPO_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+F	assets/enchant.js	/^        F.prototype = prototype;$/;"	c
+F	assets/enchant.js	/^        function F() {$/;"	f	function:Object.create
+FRAME_TIME	graphics.py	/^FRAME_TIME = 1\/30$/;"	v
+FireAnt	ants.py	/^class FireAnt(Ant):$/;"	c
+GUI	assets/app.js	/^function GUI() {$/;"	c
+GUI	gui.py	/^class GUI:$/;"	c
+GameOverException	ants.py	/^class GameOverException(Exception):$/;"	c
+GameState	ants.py	/^class GameState:$/;"	c
+HIVE_HEIGHT	ants_gui.py	/^HIVE_HEIGHT = 300$/;"	v
+HarvesterAnt	ants.py	/^class HarvesterAnt(Ant):$/;"	c
+Hive	ants.py	/^class Hive(Place):$/;"	c
+Hornet	ants.py	/^class Hornet(Bee):$/;"	c
+HttpHandler	gui.py	/^class HttpHandler(http.server.SimpleHTTPRequestHandler):$/;"	c
+HungryAnt	ants.py	/^class HungryAnt(Ant):$/;"	c
+INSECT_BASE	ants_gui.py	/^INSECT_BASE = 'img\/'$/;"	v
+INSECT_DIR	gui.py	/^INSECT_DIR = "insects\/"$/;"	v
+INSECT_FILES	ants_gui.py	/^INSECT_FILES = {'Worker': 'ant_harvester.gif',$/;"	v
+INSECT_FILES	ants_gui.py	/^INSECT_FILES = {k: INSECT_BASE + v for k, v in INSECT_FILES.items()}$/;"	v
+INSECT_FILES	gui.py	/^INSECT_FILES = {$/;"	v
+Insect	ants.py	/^class Insect:$/;"	c
+LASER_OFFSET	ants_gui.py	/^LASER_OFFSET = (60, 40)$/;"	v
+LEAF_COLORS	ants_gui.py	/^LEAF_COLORS = {'Thrower': 'ForestGreen',$/;"	v
+LEAF_END_OFFSET	ants_gui.py	/^LEAF_END_OFFSET = (50, 30)$/;"	v
+LEAF_START_OFFSET	ants_gui.py	/^LEAF_START_OFFSET = (30, 30)$/;"	v
+LINEAR	assets/enchant.js	/^    LINEAR: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+LaserAnt	ants.py	/^class LaserAnt(ThrowerAnt):$/;"	c
+LongThrower	ants.py	/^class LongThrower(ThrowerAnt):$/;"	c
+MESSAGE_POS	ants_gui.py	/^MESSAGE_POS = (150, 20)$/;"	v
+NEW_ACTION	ants.py	/^    def NEW_ACTION(gamestate):$/;"	f	function:apply_status
+NinjaAnt	ants.py	/^class NinjaAnt(Ant):$/;"	c
+NinjaBee	ants.py	/^class NinjaBee(Bee):$/;"	c
+Nop	assets/enchant.js	/^        Nop.prototype = func.prototype;$/;"	c
+Nop	assets/enchant.js	/^        var Nop = function() {$/;"	f	function:Function.var
+Object.create	assets/enchant.js	/^    Object.create = function(prototype, descs) {$/;"	f
+Object.defineProperties	assets/enchant.js	/^    Object.defineProperties = function(obj, descs) {$/;"	f
+Object.getPrototypeOf	assets/enchant.js	/^    Object.getPrototypeOf = function(obj) {$/;"	f
+PANEL_PADDING	ants_gui.py	/^PANEL_PADDING = (2, 4)$/;"	v
+PANEL_POS	ants_gui.py	/^PANEL_POS = (20, 40)$/;"	v
+PLACE_MARGIN	ants_gui.py	/^PLACE_MARGIN = 10$/;"	v
+PLACE_PADDING	ants_gui.py	/^PLACE_PADDING = (10, 10)$/;"	v
+PLACE_POS	ants_gui.py	/^PLACE_POS = (40, 180)$/;"	v
+Place	ants.py	/^class Place:$/;"	c
+QUAD_EASEIN	assets/enchant.js	/^    QUAD_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUAD_EASEINOUT	assets/enchant.js	/^    QUAD_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUAD_EASEOUT	assets/enchant.js	/^    QUAD_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUART_EASEIN	assets/enchant.js	/^    QUART_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUART_EASEINOUT	assets/enchant.js	/^    QUART_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUART_EASEOUT	assets/enchant.js	/^    QUART_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUINT_EASEIN	assets/enchant.js	/^    QUINT_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUINT_EASEINOUT	assets/enchant.js	/^    QUINT_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QUINT_EASEOUT	assets/enchant.js	/^    QUINT_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+QueenAnt	ants.py	/^class QueenAnt(ScubaThrower):  # You should change this line$/;"	c
+SIN_EASEIN	assets/enchant.js	/^    SIN_EASEIN: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+SIN_EASEINOUT	assets/enchant.js	/^    SIN_EASEINOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+SIN_EASEOUT	assets/enchant.js	/^    SIN_EASEOUT: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+STRATEGY_SECONDS	ants_gui.py	/^STRATEGY_SECONDS = 1$/;"	v
+STRATEGY_SECONDS	gui.py	/^STRATEGY_SECONDS = 3$/;"	v
+SWING	assets/enchant.js	/^    SWING: function(t, b, c, d) {$/;"	m	class:enchant.Easing
+ScaryThrower	ants.py	/^class ScaryThrower(ThrowerAnt):$/;"	c
+ScubaThrower	ants.py	/^class ScubaThrower(ThrowerAnt):$/;"	c
+ShortThrower	ants.py	/^class ShortThrower(ThrowerAnt):$/;"	c
+SlowThrower	ants.py	/^class SlowThrower(ThrowerAnt):$/;"	c
+State	state.py	/^class State:$/;"	c
+TUNNEL_FILE	ants_gui.py	/^TUNNEL_FILE = 'img\/tunnel.gif'$/;"	v
+TankAnt	ants.py	/^class TankAnt(ContainerAnt):$/;"	c
+ThrowerAnt	ants.py	/^class ThrowerAnt(Ant):$/;"	c
+VERSION	assets/enchant.js	/^    VERSION: '0.8.2',$/;"	p	class:enchant.ENV
+VERSION	gui.py	/^VERSION = 1.2$/;"	v
+WallAnt	ants.py	/^class WallAnt(Ant):$/;"	c
+Wasp	ants.py	/^class Wasp(Bee):$/;"	c
+Water	ants.py	/^class Water(Place):$/;"	c
+_PREFIX	ucb.py	/^_PREFIX = ''$/;"	v
+__init__	ants.py	/^    def __init__(self):$/;"	m	class:AntRemover
+__init__	ants.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ContainerAnt
+__init__	ants.py	/^    def __init__(self, armor):$/;"	m	class:Bee
+__init__	ants.py	/^    def __init__(self, armor, place=None):$/;"	m	class:Insect
+__init__	ants.py	/^    def __init__(self, armor=1):$/;"	m	class:Ant
+__init__	ants.py	/^    def __init__(self, armor=1):$/;"	m	class:HungryAnt
+__init__	ants.py	/^    def __init__(self, armor=1):$/;"	m	class:LaserAnt
+__init__	ants.py	/^    def __init__(self, armor=1):$/;"	m	class:QueenAnt
+__init__	ants.py	/^    def __init__(self, armor=2):$/;"	m	class:BodyguardAnt
+__init__	ants.py	/^    def __init__(self, armor=2):$/;"	m	class:TankAnt
+__init__	ants.py	/^    def __init__(self, armor=3):$/;"	m	class:FireAnt
+__init__	ants.py	/^    def __init__(self, armor=4):$/;"	m	class:WallAnt
+__init__	ants.py	/^    def __init__(self, assault_plan):$/;"	m	class:Hive
+__init__	ants.py	/^    def __init__(self, name, exit=None):$/;"	m	class:Place
+__init__	ants.py	/^    def __init__(self, strategy, beehive, ant_types, create_places, dimensions, food=2):$/;"	m	class:GameState
+__init__	ants_gui.py	/^    def __init__(self):$/;"	m	class:AntsGUI
+__init__	graphics.py	/^    def __init__(self, width=1100, height=768, title='', color='White', tk=None):$/;"	m	class:Canvas
+__init__	gui.py	/^    def __init__(self):$/;"	m	class:GUI
+__init__	state.py	/^    def __init__(self):$/;"	m	class:State
+__repr__	ants.py	/^    def __repr__(self):$/;"	m	class:Insect	file:
+__setattr__	ants.py	/^    def __setattr__(self, name, value):$/;"	m	class:Hornet	file:
+__str__	ants.py	/^    def __str__(self):$/;"	m	class:GameState	file:
+__str__	ants.py	/^    def __str__(self):$/;"	m	class:Place	file:
+_click	graphics.py	/^    def _click(self, event):$/;"	m	class:Canvas
+_collectizeConstructor	assets/enchant.js	/^var _collectizeConstructor = function(Constructor) {$/;"	f
+_draw_background	graphics.py	/^    def _draw_background(self):$/;"	m	class:Canvas
+_draw_insect	ants_gui.py	/^    def _draw_insect(self, insect, place_name, random_offset=False, behind=0):$/;"	m	class:AntsGUI
+_init_control_panel	ants_gui.py	/^    def _init_control_panel(self, gamestate):$/;"	m	class:AntsGUI
+_init_places	ants_gui.py	/^    def _init_places(self, gamestate):$/;"	m	class:AntsGUI
+_init_places	gui.py	/^    def _init_places(self, gamestate):$/;"	m	class:GUI
+_instance	graphics.py	/^    _instance = None$/;"	v	class:Canvas
+_interpret_click	ants_gui.py	/^    def _interpret_click(self, pos, gamestate):$/;"	m	class:AntsGUI
+_intersectBetweenClassAndClass	assets/enchant.js	/^var _intersectBetweenClassAndClass = function(Class1, Class2) {$/;"	f
+_intersectBetweenClassAndInstance	assets/enchant.js	/^var _intersectBetweenClassAndInstance = function(Class, instance) {$/;"	f
+_intersectStrictBetweenClassAndClass	assets/enchant.js	/^var _intersectStrictBetweenClassAndClass = function(Class1, Class2) {$/;"	f
+_intersectStrictBetweenClassAndInstance	assets/enchant.js	/^var _intersectStrictBetweenClassAndInstance = function(Class, instance) {$/;"	f
+_sleep	graphics.py	/^    def _sleep(self, seconds):$/;"	m	class:Canvas
+_staticIntersect	assets/enchant.js	/^var _staticIntersect = function(other) {$/;"	f
+_staticIntersectStrict	assets/enchant.js	/^var _staticIntersectStrict = function(other) {$/;"	f
+_throw	ants_gui.py	/^    def _throw(self, ant, gamestate):$/;"	m	class:AntsGUI
+_update_control_panel	ants_gui.py	/^    def _update_control_panel(self, gamestate):$/;"	m	class:AntsGUI
+_update_control_panel	gui.py	/^    def _update_control_panel(self, gamestate):$/;"	m	class:GUI
+_update_places	ants_gui.py	/^    def _update_places(self, gamestate):$/;"	m	class:AntsGUI
+action	ants.py	/^    action = Wasp.action$/;"	v	class:Boss
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:Bee
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:ContainerAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:HarvesterAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:Hornet
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:HungryAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:Insect
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:LaserAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:NinjaAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:QueenAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:TankAnt
+action	ants.py	/^    def action(self, gamestate):$/;"	m	class:ThrowerAnt
+add_click_rect	ants_gui.py	/^    def add_click_rect(self, pos, width, height, on_click, color='White'):$/;"	m	class:AntsGUI
+add_insect	ants.py	/^    def add_insect(self, insect):$/;"	m	class:AntHomeBase
+add_insect	ants.py	/^    def add_insect(self, insect):$/;"	m	class:Place
+add_insect	ants.py	/^    def add_insect(self, insect):$/;"	m	class:Water
+add_to	ants.py	/^    def add_to(self, place):$/;"	m	class:Ant
+add_to	ants.py	/^    def add_to(self, place):$/;"	m	class:Bee
+add_to	ants.py	/^    def add_to(self, place):$/;"	m	class:Insect
+add_wave	ants.py	/^    def add_wave(self, bee_type, bee_armor, time, count):$/;"	m	class:AssaultPlan
+all_bees	ants.py	/^    def all_bees(self):$/;"	m	class:AssaultPlan
+animate_laser	ants_gui.py	/^def animate_laser(canvas, start, length, duration=0.6, color='cyan'):$/;"	f
+animate_leaf	ants_gui.py	/^def animate_leaf(canvas, start, end, duration=0.3, color='ForestGreen'):$/;"	f
+animate_shape	graphics.py	/^    def animate_shape(self, id, duration, points_fn, frame_count=0):$/;"	m	class:Canvas
+ant_types	ants.py	/^def ant_types():$/;"	f
+ants	ants.py	/^    def ants(self):$/;"	m	class:GameState
+ants_win	ants.py	/^def ants_win():$/;"	f
+apply_status	ants.py	/^def apply_status(status, bee, length):$/;"	f
+audio.onerror	assets/enchant.js	/^            audio.onerror = function() {$/;"	f
+bees	ants.py	/^    def bees(self):$/;"	m	class:GameState
+bees_win	ants.py	/^def bees_win():$/;"	f
+blocked	ants.py	/^    def blocked(self):$/;"	m	class:Bee
+blocked	ants.py	/^    def blocked(self):$/;"	m	class:NinjaBee
+blocks_path	ants.py	/^    blocks_path = False$/;"	v	class:NinjaAnt
+blocks_path	ants.py	/^    blocks_path = True$/;"	v	class:Ant
+bound	assets/enchant.js	/^        var bound = function() {$/;"	f	function:var
+calculate_damage	ants.py	/^    def calculate_damage(self, distance):$/;"	m	class:LaserAnt
+can_contain	ants.py	/^    def can_contain(self, other):$/;"	m	class:Ant
+can_contain	ants.py	/^    def can_contain(self, other):$/;"	m	class:ContainerAnt
+cgiFieldStorageToDict	gui.py	/^    def cgiFieldStorageToDict(self, fieldStorage):$/;"	m	class:HttpHandler
+class_method_wrapper	utils.py	/^def class_method_wrapper(method, pre=None, post=None):$/;"	f
+cleanState	gui.py	/^    def cleanState(self):$/;"	m	class:GUI
+clear	graphics.py	/^    def clear(self, shape='all'):$/;"	m	class:Canvas
+clearAntTypes	assets/app.js	/^GUI.prototype.clearAntTypes = function(){$/;"	m	class:GUI
+clearBoard	assets/app.js	/^GUI.prototype.clearBoard = function(){$/;"	m	class:GUI
+configure	ants.py	/^    def configure(self, beehive, create_places):$/;"	m	class:GameState
+constructor	assets/enchant.js	/^    Constructor.prototype.constructor = Constructor;$/;"	m	class:Constructor
+contain_ant	ants.py	/^    def contain_ant(self, ant):$/;"	m	class:ContainerAnt
+contain_ant	ants.py	/^    def contain_ant(self, other):$/;"	m	class:Ant
+damage	ants.py	/^    damage = 0$/;"	v	class:Insect
+damage	ants.py	/^    damage = 0.25$/;"	v	class:Hornet
+damage	ants.py	/^    damage = 1$/;"	v	class:Bee
+damage	ants.py	/^    damage = 1$/;"	v	class:NinjaAnt
+damage	ants.py	/^    damage = 1$/;"	v	class:TankAnt
+damage	ants.py	/^    damage = 1$/;"	v	class:ThrowerAnt
+damage	ants.py	/^    damage = 2$/;"	v	class:LaserAnt
+damage	ants.py	/^    damage = 2$/;"	v	class:Wasp
+damage	ants.py	/^    damage = 3$/;"	v	class:FireAnt
+damage_cap	ants.py	/^    damage_cap = 8$/;"	v	class:Boss
+damage_modifier	ants.py	/^    def damage_modifier(self, amount):$/;"	m	class:Boss
+dead_insect	gui.py	/^def dead_insect(ant):$/;"	f
+death_callback	ants.py	/^    def death_callback(self):$/;"	m	class:Insect
+defineProperty	assets/enchant.js	/^(function(window, undefined) {$/;"	f
+deployAnt	gui.py	/^    def deployAnt(self, data):$/;"	m	class:GUI
+deploy_ant	ants.py	/^    def deploy_ant(self, place_name, ant_type_name):$/;"	m	class:GameState
+deselectAnt	assets/app.js	/^GUI.prototype.deselectAnt = function() {$/;"	m	class:GUI
+dispatchErrorEvent	assets/enchant.js	/^    function dispatchErrorEvent() {$/;"	f	function:enchant.WebAudioSound.load
+do_POST	gui.py	/^    def do_POST(self):$/;"	m	class:HttpHandler
+drawControlPanel	assets/app.js	/^function drawControlPanel(food, places, ants) {$/;"	f
+drawInitialPlaces	assets/app.js	/^function drawInitialPlaces() {$/;"	f
+draw_circle	graphics.py	/^    def draw_circle(self, center, radius, color='Black', fill_color=None, filled=1, width=1):$/;"	m	class:Canvas
+draw_image	graphics.py	/^    def draw_image(self, pos, image_file=None, scale=1, anchor=tkinter.NW, behind=0):$/;"	m	class:Canvas
+draw_line	graphics.py	/^    def draw_line(self, start, end, color='Blue', width=1):$/;"	m	class:Canvas
+draw_polygon	graphics.py	/^    def draw_polygon(self, points, color='Black', fill_color=None, filled=1, smooth=0, width=1):$/;"	m	class:Canvas
+draw_text	graphics.py	/^    def draw_text(self, text, pos, color='Black', font='Arial',$/;"	m	class:Canvas
+dry_layout	ants.py	/^def dry_layout(queen, register_place, tunnels=3, length=9):$/;"	f
+eat_bee	ants.py	/^    def eat_bee(self, bee):$/;"	m	class:HungryAnt
+edit_text	graphics.py	/^    def edit_text(self, id, text=None, color=None, font=None, size=12,$/;"	m	class:Canvas
+enchant	assets/enchant.js	/^var enchant = function(modules) {$/;"	f
+enchant.CanvasLayer._attachCache	assets/enchant.js	/^enchant.CanvasLayer._attachCache = function(node, layer, onchildadded, onchildremoved) {$/;"	f
+enchant.CanvasLayer._detachCache	assets/enchant.js	/^enchant.CanvasLayer._detachCache = function(node, layer, onchildadded, onchildremoved) {$/;"	f
+enchant.Class	assets/enchant.js	/^enchant.Class = function(superclass, definition) {$/;"	f
+enchant.Class.create	assets/enchant.js	/^enchant.Class.create = function(superclass, definition) {$/;"	f
+enchant.Class.getInheritanceTree	assets/enchant.js	/^enchant.Class.getInheritanceTree = function(Constructor) {$/;"	f
+enchant.Core.findExt	assets/enchant.js	/^    enchant.Core.findExt = function(path) {$/;"	f
+enchant.DOMSound.load	assets/enchant.js	/^enchant.DOMSound.load = function(src, type, callback, onerror) {$/;"	f
+enchant.Deferred._insert	assets/enchant.js	/^    enchant.Deferred._insert = function(queue, ins) {$/;"	f
+enchant.Deferred.next	assets/enchant.js	/^    enchant.Deferred.next = function(func) {$/;"	f
+enchant.Deferred.parallel	assets/enchant.js	/^    enchant.Deferred.parallel = function(arg) {$/;"	f
+enchant.DomLayer._attachDomManager	assets/enchant.js	/^enchant.DomLayer._attachDomManager = function(node, onchildadded, onchildremoved) {$/;"	f
+enchant.DomLayer._detachDomManager	assets/enchant.js	/^enchant.DomLayer._detachDomManager = function(node, onchildadded, onchildremoved) {$/;"	f
+enchant.Entity._inherited	assets/enchant.js	/^enchant.Entity._inherited = function(subclass) {$/;"	f
+enchant.KeyboardInputSource.getByKeyCode	assets/enchant.js	/^enchant.KeyboardInputSource.getByKeyCode = function(keyCode) {$/;"	f
+enchant.Surface._getPattern	assets/enchant.js	/^enchant.Surface._getPattern = function(surface, force) {$/;"	f
+enchant.Surface.load	assets/enchant.js	/^enchant.Surface.load = function(src, callback, onerror) {$/;"	f
+enchant.WebAudioSound.load	assets/enchant.js	/^enchant.WebAudioSound.load = function(src, type, callback, onerror) {$/;"	f
+exit	gui.py	/^    def exit(self, data=None):$/;"	m	class:GUI
+fireOff	assets/app.js	/^GUI.prototype.fireOff = function(){$/;"	m	class:GUI
+flattened	graphics.py	/^def flattened(points):$/;"	f
+food_cost	ants.py	/^    food_cost = 0$/;"	v	class:Ant
+food_cost	ants.py	/^    food_cost = 10$/;"	v	class:LaserAnt
+food_cost	ants.py	/^    food_cost = 2$/;"	v	class:HarvesterAnt
+food_cost	ants.py	/^    food_cost = 2$/;"	v	class:LongThrower
+food_cost	ants.py	/^    food_cost = 2$/;"	v	class:ShortThrower
+food_cost	ants.py	/^    food_cost = 3$/;"	v	class:ThrowerAnt
+food_cost	ants.py	/^    food_cost = 4$/;"	v	class:BodyguardAnt
+food_cost	ants.py	/^    food_cost = 4$/;"	v	class:HungryAnt
+food_cost	ants.py	/^    food_cost = 4$/;"	v	class:SlowThrower
+food_cost	ants.py	/^    food_cost = 4$/;"	v	class:WallAnt
+food_cost	ants.py	/^    food_cost = 5$/;"	v	class:FireAnt
+food_cost	ants.py	/^    food_cost = 5$/;"	v	class:NinjaAnt
+food_cost	ants.py	/^    food_cost = 6$/;"	v	class:ScaryThrower
+food_cost	ants.py	/^    food_cost = 6$/;"	v	class:ScubaThrower
+food_cost	ants.py	/^    food_cost = 6$/;"	v	class:TankAnt
+food_cost	ants.py	/^    food_cost = 7$/;"	v	class:QueenAnt
+format_color	graphics.py	/^def format_color(r, g, b):$/;"	f
+getState	gui.py	/^    def getState(self, data=None):$/;"	m	class:GUI
+getState	state.py	/^    def getState(self, key=None):$/;"	m	class:State
+get_antTypes	assets/app.js	/^GUI.prototype.get_antTypes = function() {$/;"	m	class:GUI
+get_ant_types	gui.py	/^    def get_ant_types(self, noSave=False):$/;"	m	class:GUI
+get_beeLocations	assets/app.js	/^GUI.prototype.get_beeLocations = function() {$/;"	m	class:GUI
+get_beeToId	assets/app.js	/^GUI.prototype.get_beeToId = function() {$/;"	m	class:GUI
+get_deadbees	assets/app.js	/^GUI.prototype.get_deadbees = function() {$/;"	m	class:GUI
+get_deadinsects	assets/app.js	/^GUI.prototype.get_deadinsects = function() {$/;"	m	class:GUI
+get_food	assets/app.js	/^GUI.prototype.get_food = function() {$/;"	m	class:GUI
+get_gameState	assets/app.js	/^GUI.prototype.get_gameState = function() {$/;"	m	class:GUI
+get_insect_img_file	gui.py	/^    def get_insect_img_file(self, name):$/;"	m	class:GUI
+get_localGameState	assets/app.js	/^GUI.prototype.get_localGameState = function() {$/;"	m	class:GUI
+get_oldBeeLocations	assets/app.js	/^GUI.prototype.get_oldBeeLocations = function() {$/;"	m	class:GUI
+get_place_column	gui.py	/^    def get_place_column(self, name):$/;"	m	class:GUI
+get_place_row	gui.py	/^    def get_place_row(self, name):$/;"	m	class:GUI
+get_places	assets/app.js	/^GUI.prototype.get_places = function() {$/;"	m	class:GUI
+get_rows	assets/app.js	/^GUI.prototype.get_rows = function() {$/;"	m	class:GUI
+get_selectedAnt	assets/app.js	/^GUI.prototype.get_selectedAnt = function() {$/;"	m	class:GUI
+get_strategyTime	assets/app.js	/^GUI.prototype.get_strategyTime = function() {$/;"	m	class:GUI
+get_time	assets/app.js	/^GUI.prototype.get_time = function() {$/;"	m	class:GUI
+get_update	gui.py	/^def get_update(url, version):$/;"	f
+get_winner	assets/app.js	/^GUI.prototype.get_winner = function() {$/;"	m	class:GUI
+gui	assets/app.js	/^var gui;$/;"	v
+handler	ucb.py	/^    def handler(signum, frame):$/;"	f	function:interact
+image.onerror	assets/enchant.js	/^    image.onerror = function() {$/;"	f
+image.onload	assets/enchant.js	/^    image.onload = function() {$/;"	f
+img	assets/app.js	/^    this.selected_ant = { name: name, img: img };$/;"	p	class:GUI.this.selected_ant
+implemented	ants.py	/^    implemented = False   # Change to True to view in the GUI$/;"	v	class:BodyguardAnt
+implemented	ants.py	/^    implemented = False  # Only implemented Ant classes should be instantiated$/;"	v	class:Ant
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:FireAnt
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:HungryAnt
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:LaserAnt
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:LongThrower
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:NinjaAnt
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:QueenAnt
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:ScaryThrower
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:ShortThrower
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:SlowThrower
+implemented	ants.py	/^    implemented = True   # Change to True to view in the GUI$/;"	v	class:TankAnt
+implemented	ants.py	/^    implemented = True$/;"	v	class:AntRemover
+implemented	ants.py	/^    implemented = True$/;"	v	class:HarvesterAnt
+implemented	ants.py	/^    implemented = True$/;"	v	class:ScubaThrower
+implemented	ants.py	/^    implemented = True$/;"	v	class:ThrowerAnt
+implemented	ants.py	/^    implemented = True$/;"	v	class:WallAnt
+initialize	assets/enchant.js	/^            Constructor.prototype.initialize.apply(this, arguments);$/;"	m	class:enchant.Class.create.Constructor
+initialize	assets/enchant.js	/^        Constructor.prototype.initialize = function() {$/;"	m	class:Constructor
+initialize_colony_graphics	ants_gui.py	/^    def initialize_colony_graphics(self, gamestate):$/;"	m	class:AntsGUI
+initialize_colony_graphics	gui.py	/^    def initialize_colony_graphics(self, gamestate):$/;"	m	class:GUI
+insects	ants.py	/^    def insects(self):$/;"	m	class:GameState
+insects_in_front	ants.py	/^    def insects_in_front(self, beehive):$/;"	m	class:LaserAnt
+interact	ucb.py	/^def interact(msg=None):$/;"	f
+interactive_strategy	ants.py	/^def interactive_strategy(gamestate):$/;"	f
+is_gameOver	assets/app.js	/^GUI.prototype.is_gameOver = function() {$/;"	m	class:GUI
+is_only	ants.py	/^    is_only = False$/;"	v	class:QueenAnt
+is_watersafe	ants.py	/^    is_watersafe = False$/;"	v	class:Insect
+is_watersafe	ants.py	/^    is_watersafe = True$/;"	v	class:Bee
+is_watersafe	ants.py	/^    is_watersafe = True$/;"	v	class:ScubaThrower
+killGUI	gui.py	/^    def killGUI(self):$/;"	m	class:GUI
+leaf_coords	ants_gui.py	/^def leaf_coords(pos, angle, length):$/;"	f
+log	ucb.py	/^def log(message):$/;"	f
+log_current_line	ucb.py	/^def log_current_line():$/;"	f
+log_message	gui.py	/^    def log_message(self, format, *args):$/;"	m	class:HttpHandler
+main	ucb.py	/^def main(fn):$/;"	f
+makeHooks	gui.py	/^    def makeHooks(self):$/;"	m	class:GUI
+make_easy_assault_plan	ants_plans.py	/^def make_easy_assault_plan():$/;"	f
+make_extra_hard_assault_plan	ants_plans.py	/^def make_extra_hard_assault_plan():$/;"	f
+make_hard_assault_plan	ants_plans.py	/^def make_hard_assault_plan():$/;"	f
+make_normal_assault_plan	ants_plans.py	/^def make_normal_assault_plan():$/;"	f
+make_scare	ants.py	/^def make_scare(action, bee):$/;"	f
+make_slow	ants.py	/^def make_slow(action, bee):$/;"	f
+make_test_assault_plan	ants_plans.py	/^def make_test_assault_plan():$/;"	f
+max_range	ants.py	/^    max_range = 3$/;"	v	class:ShortThrower
+max_range	ants.py	/^    max_range = float('inf')$/;"	v	class:LongThrower
+max_range	ants.py	/^    max_range = float('inf')$/;"	v	class:ThrowerAnt
+min_range	ants.py	/^    min_range = 0$/;"	v	class:ShortThrower
+min_range	ants.py	/^    min_range = 0$/;"	v	class:ThrowerAnt
+min_range	ants.py	/^    min_range = 5$/;"	v	class:LongThrower
+moveBees	assets/app.js	/^GUI.prototype.moveBees = function() {$/;"	m	class:GUI
+move_to	ants.py	/^    def move_to(self, place):$/;"	m	class:Bee
+name	ants.py	/^    name = "Wall"$/;"	v	class:WallAnt
+name	ants.py	/^    name = 'Bee'$/;"	v	class:Bee
+name	ants.py	/^    name = 'Bodyguard'$/;"	v	class:BodyguardAnt
+name	ants.py	/^    name = 'Boss'$/;"	v	class:Boss
+name	ants.py	/^    name = 'Fire'$/;"	v	class:FireAnt
+name	ants.py	/^    name = 'Harvester'$/;"	v	class:HarvesterAnt
+name	ants.py	/^    name = 'Hornet'$/;"	v	class:Hornet
+name	ants.py	/^    name = 'Hungry'$/;"	v	class:HungryAnt
+name	ants.py	/^    name = 'Laser'$/;"	v	class:LaserAnt
+name	ants.py	/^    name = 'Long'$/;"	v	class:LongThrower
+name	ants.py	/^    name = 'Ninja'$/;"	v	class:NinjaAnt
+name	ants.py	/^    name = 'NinjaBee'$/;"	v	class:NinjaBee
+name	ants.py	/^    name = 'Queen'$/;"	v	class:QueenAnt
+name	ants.py	/^    name = 'Remover'$/;"	v	class:AntRemover
+name	ants.py	/^    name = 'Scary'$/;"	v	class:ScaryThrower
+name	ants.py	/^    name = 'Scuba'$/;"	v	class:ScubaThrower
+name	ants.py	/^    name = 'Short'$/;"	v	class:ShortThrower
+name	ants.py	/^    name = 'Slow'$/;"	v	class:SlowThrower
+name	ants.py	/^    name = 'Tank'$/;"	v	class:TankAnt
+name	ants.py	/^    name = 'Thrower'$/;"	v	class:ThrowerAnt
+name	ants.py	/^    name = 'Wasp'$/;"	v	class:Wasp
+name	assets/app.js	/^    this.selected_ant = { name: name, img: img };$/;"	p	class:GUI.this.selected_ant
+nearest_bee	ants.py	/^    def nearest_bee(self, beehive):$/;"	m	class:ThrowerAnt
+newGameThread	gui.py	/^    def newGameThread(self):$/;"	m	class:GUI
+new_action	ants.py	/^    def new_action(gamestate):$/;"	f	function:make_scare
+new_action	ants.py	/^    def new_action(gamestate):$/;"	f	function:make_slow
+on_click	ants_gui.py	/^            def on_click(gamestate, frame, name=name):$/;"	f	function:AntsGUI._init_control_panel
+on_click	ants_gui.py	/^            def on_click(gamestate, frame, name=name):$/;"	f	function:AntsGUI._init_places
+paired	graphics.py	/^def paired(coords):$/;"	f
+points_fn	ants_gui.py	/^    def points_fn(frame_count):$/;"	f	function:animate_leaf
+points_fn	graphics.py	/^        def points_fn(frame_count):$/;"	f	function:Canvas.slide_shape
+print_expired_insects	utils.py	/^def print_expired_insects(self, rv, *args):$/;"	f
+print_thrower_target	utils.py	/^def print_thrower_target(self, rv, *args):$/;"	f
+rANTdom_else_none	ants.py	/^def rANTdom_else_none(s):$/;"	f
+rectangle_points	graphics.py	/^def rectangle_points(pos, width, height):$/;"	f
+reduce_armor	ants.py	/^    def reduce_armor(self, amount):$/;"	m	class:Boss
+reduce_armor	ants.py	/^    def reduce_armor(self, amount):$/;"	m	class:FireAnt
+reduce_armor	ants.py	/^    def reduce_armor(self, amount):$/;"	m	class:Insect
+reduce_armor	ants.py	/^    def reduce_armor(self, amount):$/;"	m	class:QueenAnt
+register_place	ants.py	/^        def register_place(place, is_bee_entrance):$/;"	f	function:GameState.configure
+removeAnts	assets/app.js	/^GUI.prototype.removeAnts = function() {$/;"	m	class:GUI
+remove_ant	ants.py	/^    def remove_ant(self, ant):$/;"	m	class:ContainerAnt
+remove_ant	ants.py	/^    def remove_ant(self, other):$/;"	m	class:Ant
+remove_ant	ants.py	/^    def remove_ant(self, place_name):$/;"	m	class:GameState
+remove_from	ants.py	/^    def remove_from(self, place):$/;"	m	class:Ant
+remove_from	ants.py	/^    def remove_from(self, place):$/;"	m	class:Bee
+remove_from	ants.py	/^    def remove_from(self, place):$/;"	m	class:ContainerAnt
+remove_from	ants.py	/^    def remove_from(self, place):$/;"	m	class:Insect
+remove_from	ants.py	/^    def remove_from(self, place):$/;"	m	class:QueenAnt
+remove_insect	ants.py	/^    def remove_insect(self, insect):$/;"	m	class:Place
+restartGame	assets/app.js	/^GUI.prototype.restartGame = function(){$/;"	m	class:GUI
+run	ants_gui.py	/^def run(*args):$/;"	f
+run	ants_text.py	/^def run(*args):$/;"	f
+run	gui.py	/^def run(*args):$/;"	f
+saveState	gui.py	/^    def saveState(self, key, val):$/;"	m	class:GUI
+selectAnt	assets/app.js	/^GUI.prototype.selectAnt = function(name, img) {$/;"	m	class:GUI
+server_bind	gui.py	/^    def server_bind(self):$/;"	m	class:CustomThreadingTCPServer
+shift_point	graphics.py	/^def shift_point(point, offset):$/;"	f
+shoot_from	assets/app.js	/^function shoot_from(a, b){$/;"	f
+simulate	ants.py	/^    def simulate(self):$/;"	m	class:GameState
+slide_shape	graphics.py	/^    def slide_shape(self, id, end_pos, duration, elapsed=0):$/;"	m	class:Canvas
+startGame	assets/app.js	/^GUI.prototype.startGame = function() {$/;"	m	class:GUI
+startGame	assets/app.js	/^function startGame() {$/;"	f
+startGame	gui.py	/^    def startGame(self, data=None):$/;"	m	class:GUI
+start_http	gui.py	/^    def start_http():$/;"	f	function:run
+start_with_strategy	ants_strategies.py	/^def start_with_strategy(args, strategy):$/;"	f
+sting	ants.py	/^    def sting(self, ant):$/;"	m	class:Bee
+strategy	ants.py	/^    def strategy(self, gamestate):$/;"	m	class:Hive
+strategy	ants_gui.py	/^    def strategy(self, gamestate):$/;"	m	class:AntsGUI
+strategy	gui.py	/^    def strategy(self, gamestate):$/;"	m	class:GUI
+tail	graphics.py	/^            def tail():$/;"	f	function:Canvas.animate_shape
+test	tests/00.py	/^test = {$/;"	v
+test	tests/01.py	/^test = {$/;"	v
+test	tests/02.py	/^test = {$/;"	v
+test	tests/03.py	/^test = {$/;"	v
+test	tests/04.py	/^test = {$/;"	v
+test	tests/05.py	/^test = {$/;"	v
+test	tests/06.py	/^test = {$/;"	v
+test	tests/07.py	/^test = {$/;"	v
+test	tests/08.py	/^test = {$/;"	v
+test	tests/09.py	/^test = {$/;"	v
+test	tests/EC.py	/^test = {$/;"	v
+test	tests/optional1.py	/^test = {$/;"	v
+test	tests/optional2.py	/^test = {$/;"	v
+test	tests/optional3.py	/^test = {$/;"	v
+test	tests/optional4.py	/^test = {$/;"	v
+test	tests/optional5.py	/^test = {$/;"	v
+throw_at	ants.py	/^    def throw_at(self, target):$/;"	m	class:ScaryThrower
+throw_at	ants.py	/^    def throw_at(self, target):$/;"	m	class:SlowThrower
+throw_at	ants.py	/^    def throw_at(self, target):$/;"	m	class:ThrowerAnt
+time_to_digest	ants.py	/^    time_to_digest = 3$/;"	v	class:HungryAnt
+trace	ucb.py	/^def trace(fn):$/;"	f
+translate_point	graphics.py	/^def translate_point(point, angle, distance):$/;"	f
+update	assets/app.js	/^GUI.prototype.update = function() {$/;"	m	class:GUI
+update	gui.py	/^def update():$/;"	f
+updateControlPanel	assets/app.js	/^function updateControlPanel() {$/;"	f
+updateFoodCount	assets/app.js	/^function updateFoodCount() {$/;"	f
+updateState	assets/app.js	/^GUI.prototype.updateState = function(s) {$/;"	m	class:GUI
+updateState	state.py	/^    def updateState(self, key, val):$/;"	m	class:State
+updateTime	assets/app.js	/^GUI.prototype.updateTime = function() {$/;"	m	class:GUI
+update_food	gui.py	/^    def update_food(self):$/;"	m	class:GUI
+value	assets/enchant.js	/^                definition[prop] = { value: definition[prop], enumerable: true, writable: true };$/;"	p	class:definition
+wait_for_click	graphics.py	/^    def wait_for_click(self, seconds=0):$/;"	m	class:Canvas
+wet_layout	ants.py	/^def wet_layout(queen, register_place, tunnels=3, length=9, moat_frequency=3):$/;"	f
+wrapped	ucb.py	/^    def wrapped(*args, **kwds):$/;"	f	function:trace
+wrapped_method	utils.py	/^    def wrapped_method(self, *args):$/;"	f	function:class_method_wrapper
+xhr.onload	assets/enchant.js	/^        xhr.onload = function() {$/;"	f

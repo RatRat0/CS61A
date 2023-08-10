@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Buffer	buffer.py	/^class Buffer(object):$/;"	c
+CallExpr	expr.py	/^class CallExpr(Expr):$/;"	c
+DELIMITERS	reader.py	/^DELIMITERS = set('(),:')$/;"	v
+Expr	expr.py	/^class Expr:$/;"	c
+LambdaExpr	expr.py	/^class LambdaExpr(Expr):$/;"	c
+LambdaFunction	expr.py	/^class LambdaFunction(Value):$/;"	c
+Literal	expr.py	/^class Literal(Expr):$/;"	c
+NUMERAL	reader.py	/^NUMERAL = set(string.digits + '-.')$/;"	v
+Name	expr.py	/^class Name(Expr):$/;"	c
+Number	expr.py	/^class Number(Value):$/;"	c
+PrimitiveFunction	expr.py	/^class PrimitiveFunction(Value):$/;"	c
+SYMBOL_INNERS	reader.py	/^SYMBOL_INNERS = SYMBOL_STARTS | set(string.digits)$/;"	v
+SYMBOL_STARTS	reader.py	/^SYMBOL_STARTS = set(string.ascii_lowercase + string.ascii_uppercase + '_')$/;"	v
+Value	expr.py	/^class Value:$/;"	c
+WHITESPACE	reader.py	/^WHITESPACE = set(' \\t\\n\\r')$/;"	v
+__init__	buffer.py	/^    def __init__(self, source):$/;"	m	class:Buffer
+__init__	expr.py	/^    def __init__(self, *args):$/;"	m	class:Expr
+__init__	expr.py	/^    def __init__(self, *args):$/;"	m	class:Value
+__init__	expr.py	/^    def __init__(self, operator):$/;"	m	class:PrimitiveFunction
+__init__	expr.py	/^    def __init__(self, operator, operands):$/;"	m	class:CallExpr
+__init__	expr.py	/^    def __init__(self, parameters, body):$/;"	m	class:LambdaExpr
+__init__	expr.py	/^    def __init__(self, parameters, body, parent):$/;"	m	class:LambdaFunction
+__init__	expr.py	/^    def __init__(self, value):$/;"	m	class:Literal
+__init__	expr.py	/^    def __init__(self, value):$/;"	m	class:Number
+__init__	expr.py	/^    def __init__(self, var_name):$/;"	m	class:Name
+__repr__	expr.py	/^    def __repr__(self):$/;"	m	class:Expr	file:
+__repr__	expr.py	/^    def __repr__(self):$/;"	m	class:Value	file:
+__str__	buffer.py	/^    def __str__(self):$/;"	m	class:Buffer	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:CallExpr	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:Expr	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:LambdaExpr	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:LambdaFunction	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:Literal	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:Name	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:Number	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:PrimitiveFunction	file:
+__str__	expr.py	/^    def __str__(self):$/;"	m	class:Value	file:
+apply	expr.py	/^    def apply(self, arguments):$/;"	m	class:LambdaFunction
+apply	expr.py	/^    def apply(self, arguments):$/;"	m	class:Number
+apply	expr.py	/^    def apply(self, arguments):$/;"	m	class:PrimitiveFunction
+apply	expr.py	/^    def apply(self, arguments):$/;"	m	class:Value
+comma_separated	utils.py	/^def comma_separated(xs):$/;"	f
+current	buffer.py	/^    def current(self):$/;"	m	class:Buffer
+eval	expr.py	/^    def eval(self, env):$/;"	m	class:CallExpr
+eval	expr.py	/^    def eval(self, env):$/;"	m	class:Expr
+eval	expr.py	/^    def eval(self, env):$/;"	m	class:LambdaExpr
+eval	expr.py	/^    def eval(self, env):$/;"	m	class:Literal
+eval	expr.py	/^    def eval(self, env):$/;"	m	class:Name
+expect	buffer.py	/^    def expect(self, expected):$/;"	m	class:Buffer
+expr	repl.py	/^            expr = read(user_input)$/;"	v
+global_env	expr.py	/^global_env = {$/;"	v
+is_literal	reader.py	/^def is_literal(s):$/;"	f
+is_name	reader.py	/^def is_name(s):$/;"	f
+next_token	reader.py	/^def next_token(src):$/;"	f
+pop_first	buffer.py	/^    def pop_first(self):$/;"	m	class:Buffer
+read	reader.py	/^def read(s):$/;"	f
+read_call_expr	reader.py	/^def read_call_expr(src, operator):$/;"	f
+read_comma_separated	reader.py	/^def read_comma_separated(src, reader):$/;"	f
+read_expr	reader.py	/^def read_expr(src):$/;"	f
+read_only	repl.py	/^    read_only = len(sys.argv) == 2 and sys.argv[1] == '--read'$/;"	v
+read_param	reader.py	/^def read_param(src):$/;"	f
+take	reader.py	/^def take(src, allowed_characters):$/;"	f
+test	tests/prologue_expr.py	/^test = {$/;"	v
+test	tests/prologue_reader.py	/^test = {$/;"	v
+tokenize	reader.py	/^def tokenize(s):$/;"	f
+user_input	repl.py	/^            user_input = input('> ')$/;"	v

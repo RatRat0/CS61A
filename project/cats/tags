@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+1	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	p
+Abstract	tests/abstraction_check.py	/^class Abstract(object):$/;"	c
+AbstractionViolation	tests/abstraction_check.py	/^class AbstractionViolation(Exception):$/;"	c
+CAPTCHA_ACCURACY_THRESHOLD	gui_files/multiplayer.py	/^CAPTCHA_ACCURACY_THRESHOLD = 60$/;"	v
+CAPTCHA_LENGTH	gui_files/leaderboard_integrity.py	/^CAPTCHA_LENGTH = 10$/;"	v
+CAPTCHA_QUEUE_LEN	gui_files/leaderboard_integrity.py	/^CAPTCHA_QUEUE_LEN = 200$/;"	v
+CAPTCHA_SLOWDOWN_FACTOR	gui_files/multiplayer.py	/^CAPTCHA_SLOWDOWN_FACTOR = 0.6$/;"	v
+CAPTCHA_WORD_LEN	gui_files/leaderboard_integrity.py	/^CAPTCHA_WORD_LEN = 6$/;"	v
+COMMON_WORDS_SET	gui_files/leaderboard_integrity.py	/^COMMON_WORDS_SET = set(cats.lines_from_file('data\/common_words.txt'))$/;"	v
+DEFAULT_SERVER	gui.py	/^DEFAULT_SERVER = 'https:\/\/cats.cs61a.org'$/;"	v
+ExclusionChecker	tests/construct_check.py	/^class ExclusionChecker(NodeVisitor):$/;"	c
+GUI_FOLDER	gui.py	/^GUI_FOLDER = "gui_files\/"$/;"	v
+Game	tests/abstraction_check.py	/^class Game(Abstract):$/;"	c
+Handler	gui_files/common_server.py	/^class Handler(server.BaseHTTPRequestHandler):$/;"	c
+LETTER_SETS	gui.py	/^LETTER_SETS = [(w, set(w)) for w in WORDS_LIST]$/;"	v
+MAX_NAME_LENGTH	gui_files/multiplayer.py	/^MAX_NAME_LENGTH = 30$/;"	v
+MAX_PLAYERS	gui_files/multiplayer.py	/^MAX_PLAYERS = 4$/;"	v
+MAX_UNVERIFIED_WPM	gui_files/multiplayer.py	/^MAX_UNVERIFIED_WPM = 90$/;"	v
+MAX_WAIT	gui_files/multiplayer.py	/^MAX_WAIT = timedelta(seconds=5)$/;"	v
+MIN_PLAYERS	gui_files/multiplayer.py	/^MIN_PLAYERS = 2$/;"	v
+NUM_RETRIES	gui_files/db.py	/^NUM_RETRIES = 5$/;"	v
+Object	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	c
+PARAGRAPH_PATH	gui.py	/^PARAGRAPH_PATH = ".\/data\/sample_paragraphs.txt"$/;"	v
+PATHS	gui_files/common_server.py	/^PATHS = {}$/;"	v
+PORT	gui.py	/^PORT = 31415$/;"	v
+QUEUE_TIMEOUT	gui_files/multiplayer.py	/^QUEUE_TIMEOUT = timedelta(seconds=1)$/;"	v
+SIMILARITY_LIMIT	gui.py	/^SIMILARITY_LIMIT = 2$/;"	v
+SLEEP_DELAY	gui_files/db.py	/^SLEEP_DELAY = 2$/;"	v
+Server	gui_files/common_server.py	/^Server = Server()$/;"	v
+Server	gui_files/common_server.py	/^class Server:$/;"	c
+WORDS_LIST	gui.py	/^WORDS_LIST = cats.lines_from_file('data\/words.txt')$/;"	v
+WORDS_SET	gui.py	/^WORDS_SET = set(WORDS_LIST)$/;"	v
+_NAMES	tests/construct_check.py	/^_NAMES = {$/;"	v
+_PREFIX	ucb.py	/^_PREFIX = ''$/;"	v
+__add__	tests/abstraction_check.py	/^    def __add__(self, other):$/;"	m	class:Abstract	file:
+__bool__	tests/abstraction_check.py	/^    def __bool__(self):$/;"	m	class:Abstract	file:
+__call__	tests/abstraction_check.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:Abstract	file:
+__contains__	tests/abstraction_check.py	/^    def __contains__(self, other):$/;"	m	class:Abstract	file:
+__delitem__	tests/abstraction_check.py	/^    def __delitem__(self, other):$/;"	m	class:Abstract	file:
+__eq__	tests/abstraction_check.py	/^    def __eq__(self, other):$/;"	m	class:Abstract	file:
+__getattr__	gui_files/common_server.py	/^    def __getattr__(self, item):$/;"	m	class:Server	file:
+__getitem__	tests/abstraction_check.py	/^    def __getitem__(self, index):$/;"	m	class:Abstract	file:
+__hash__	tests/abstraction_check.py	/^    def __hash__(self):$/;"	m	class:Abstract	file:
+__init__	tests/abstraction_check.py	/^    def __init__(self, words, times_per_player):$/;"	m	class:Game
+__init__	tests/construct_check.py	/^    def __init__(self, disallow=()):$/;"	m	class:ExclusionChecker
+__iter__	tests/abstraction_check.py	/^    def __iter__(self):$/;"	m	class:Abstract	file:
+__len__	tests/abstraction_check.py	/^    def __len__(self):$/;"	m	class:Abstract	file:
+__ne__	tests/abstraction_check.py	/^    def __ne__(self, other):$/;"	m	class:Abstract	file:
+__radd__	tests/abstraction_check.py	/^    def __radd__(self, other):$/;"	m	class:Abstract	file:
+__repr__	tests/abstraction_check.py	/^    def __repr__(self):$/;"	m	class:Game	file:
+__setitem__	tests/abstraction_check.py	/^    def __setitem__(self, key, item):$/;"	m	class:Abstract	file:
+_report	tests/construct_check.py	/^    def _report(self, node, msg=None):$/;"	m	class:ExclusionChecker
+about	cats.py	/^def about(topic):$/;"	f
+accuracy	cats.py	/^def accuracy(typed, reference):$/;"	f
+actual_decorator	gui_files/common_server.py	/^            def actual_decorator(f):$/;"	f	function:path_optional.wrapped
+all_times	cats.py	/^def all_times(game):$/;"	f
+all_times	tests/abstraction_check.py	/^all_times = lambda u: u.b$/;"	v
+all_words	cats.py	/^def all_words(game):$/;"	f
+all_words	tests/abstraction_check.py	/^all_words = lambda u: u.a$/;"	v
+analyze	gui.py	/^def analyze(prompted_text, typed_text, start_time, end_time):$/;"	f
+app	gui.py	/^    app = start(PORT, DEFAULT_SERVER, GUI_FOLDER, multiplayer.db_init)/;"	v
+autocorrect	cats.py	/^def autocorrect(user_word, valid_words, diff_function, limit):$/;"	f
+autocorrect	gui.py	/^def autocorrect(word=""):$/;"	f
+captcha_queue	gui_files/leaderboard_integrity.py	/^captcha_queue = Queue()$/;"	v
+check	tests/construct_check.py	/^    def check(self, source_file, checked_funcs, disallow=None, source=None):$/;"	m	class:ExclusionChecker
+check	tests/construct_check.py	/^def check(source_file, checked_funcs, disallow, source=None):$/;"	f
+check_leaderboard_eligibility	gui_files/multiplayer.py	/^    def check_leaderboard_eligibility(wpm, user, token):$/;"	f	function:create_multiplayer_server
+choose	cats.py	/^def choose(paragraphs, select, k):$/;"	f
+claim_wpm_challenge	gui_files/multiplayer.py	/^    def claim_wpm_challenge(user, token, typed, claimed_wpm):$/;"	f	function:create_multiplayer_server
+compute_pairwise_distances	utils.py	/^	def compute_pairwise_distances(i, j, d):$/;"	f	function:get_key_distances
+connect_db	gui_files/db.py	/^def connect_db():$/;"	f
+count	utils.py	/^def count(f):$/;"	f
+counted	utils.py	/^    def counted(*args):$/;"	f	function:count
+create_multiplayer_server	gui_files/multiplayer.py	/^def create_multiplayer_server():$/;"	f
+create_wpm_authorization	gui_files/leaderboard_integrity.py	/^def create_wpm_authorization(user, wpm):$/;"	f
+datatype	tests/abstraction_check.py	/^def datatype(obj):$/;"	f
+db	gui_files/db.py	/^    def db(*args):$/;"	f	function:connect_db
+db_init	gui_files/multiplayer.py	/^def db_init():$/;"	f
+decode_challenge	gui_files/leaderboard_integrity.py	/^def decode_challenge(token):$/;"	f
+decorator	gui_files/leaderboard_integrity.py	/^    def decorator(f):$/;"	f	function:token_reader
+distance	utils.py	/^def distance(p1, p2):$/;"	f
+do_GET	gui_files/common_server.py	/^    def do_GET(self):$/;"	m	class:Handler
+do_POST	gui_files/common_server.py	/^    def do_POST(self):$/;"	m	class:Handler
+enable_multiplayer	cats.py	/^enable_multiplayer = False  # Change to True when you're ready to race.$/;"	v
+encode_challenge	gui_files/leaderboard_integrity.py	/^def encode_challenge(user, words):$/;"	f
+errors	tests/construct_check.py	/^    def errors(self):$/;"	m	class:ExclusionChecker
+f	gui_files/common_server.py	/^        def f(**kwargs):$/;"	f	function:Server.__getattr__
+f	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	f	function:t
+fastest_words	cats.py	/^def fastest_words(game):$/;"	f
+fastest_words	gui.py	/^def fastest_words(prompt, targets):$/;"	f
+fastest_words_report	cats.py	/^def fastest_words_report(times_per_player, words):$/;"	f
+favicon	gui.py	/^def favicon():$/;"	f
+fernet	gui_files/leaderboard_integrity.py	/^fernet = None$/;"	v
+final_diff	cats.py	/^def final_diff(start, goal, limit):$/;"	f
+forward_to_server	gui_files/common_server.py	/^def forward_to_server(path):$/;"	f
+game	cats.py	/^def game(words, times):$/;"	f
+game	tests/abstraction_check.py	/^game = Game$/;"	v
+game_string	cats.py	/^def game_string(game):$/;"	f
+generate_captcha	gui_files/leaderboard_integrity.py	/^def generate_captcha():$/;"	f
+generic_visit	tests/construct_check.py	/^    def generic_visit(self, node):$/;"	m	class:ExclusionChecker
+get_authorized_limit	gui_files/leaderboard_integrity.py	/^def get_authorized_limit(user, token):$/;"	f
+get_captcha_urls	gui_files/leaderboard_integrity.py	/^def get_captcha_urls(num_words=CAPTCHA_LENGTH):$/;"	f
+get_key_distances	utils.py	/^def get_key_distances():$/;"	f
+handler	ucb.py	/^    def handler(signum, frame):$/;"	f	function:interact
+hasOwnProperty	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	m	class:Object
+hasOwnProperty	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	m	class:return
+index	gui_files/common_server.py	/^    def index():$/;"	f	function:start_server
+interact	ucb.py	/^def interact(msg=None):$/;"	f
+is_exsit	cats.py	/^    def is_exsit(s):$/;"	f	function:about
+kill	gui_files/common_server.py	/^def kill():$/;"	f
+leaderboard	gui_files/multiplayer.py	/^    def leaderboard():$/;"	f	function:create_multiplayer_server
+lines_from_file	utils.py	/^def lines_from_file(path):$/;"	f
+log	ucb.py	/^def log(message):$/;"	f
+log_current_line	ucb.py	/^def log_current_line():$/;"	f
+log_message	gui_files/common_server.py	/^    def log_message(self, *args, **kwargs):$/;"	m	class:Handler
+lower	utils.py	/^def lower(s):$/;"	f
+main	ucb.py	/^def main(fn):$/;"	f
+multiplayer_post	gui_files/common_server.py	/^def multiplayer_post(path, data, server_url=None):$/;"	f
+n	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	f
+o	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	f
+old	tests/abstraction_check.py	/^old = {}$/;"	v
+path_optional	gui_files/common_server.py	/^def path_optional(decorator):$/;"	f
+pawssible_patches	cats.py	/^def pawssible_patches(start, goal, limit):$/;"	f
+populate_captcha_queue	gui_files/leaderboard_integrity.py	/^def populate_captcha_queue():$/;"	f
+provide_id	gui_files/multiplayer.py	/^    def provide_id():$/;"	f	function:create_multiplayer_server
+punctuation_remover	utils.py	/^punctuation_remover = str.maketrans('', '', string.punctuation)$/;"	v
+r	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	f
+record_wpm	gui_files/multiplayer.py	/^    def record_wpm(name, user, wpm, token):$/;"	f	function:create_multiplayer_server
+reformat	gui.py	/^def reformat(word, raw_word):$/;"	f
+remove_punctuation	utils.py	/^def remove_punctuation(s):$/;"	f
+report_progress	cats.py	/^def report_progress(typed, prompt, user_id, send):$/;"	f
+report_progress	gui.py	/^def report_progress(id, typed, prompt):$/;"	f
+request_all_progress	gui_files/multiplayer.py	/^    def request_all_progress(targets):$/;"	f	function:create_multiplayer_server
+request_id	gui.py	/^def request_id():$/;"	f
+request_match	gui_files/multiplayer.py	/^    def request_match(id):$/;"	f	function:create_multiplayer_server
+request_paragraph	gui.py	/^def request_paragraph(topics=None):$/;"	f
+request_progress	gui_files/multiplayer.py	/^    def request_progress(targets):$/;"	f	function:create_multiplayer_server
+request_wpm_challenge	gui_files/multiplayer.py	/^    def request_wpm_challenge(user):$/;"	f	function:create_multiplayer_server
+require_fernet	gui_files/leaderboard_integrity.py	/^def require_fernet(f):$/;"	f
+restore_implementations	tests/abstraction_check.py	/^def restore_implementations(impl):$/;"	f
+return	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	c
+route	gui_files/common_server.py	/^def route(path):$/;"	f
+run	cats.py	/^def run(*args):$/;"	f
+run_typing_test	cats.py	/^def run_typing_test(topics):$/;"	f
+sendto	gui_files/common_server.py	/^def sendto(f):$/;"	f
+server_only	gui_files/common_server.py	/^def server_only(f):$/;"	f
+set_progress	gui_files/multiplayer.py	/^    def set_progress(id, progress):$/;"	f	function:create_multiplayer_server
+setup_db	gui_files/db.py	/^def setup_db(service_name):$/;"	f
+shifty_shifts	cats.py	/^def shifty_shifts(start, goal, limit):$/;"	f
+similar	gui.py	/^def similar(w, v, n):$/;"	f
+snakify	gui_files/common_server.py	/^def snakify(data):$/;"	f
+split	utils.py	/^def split(s):$/;"	f
+start	gui_files/common_server.py	/^def start(port, default_server, gui_folder, db_init=None):$/;"	f
+start_client	gui_files/common_server.py	/^def start_client(port, default_server, gui_folder, standalone):$/;"	f
+start_server	gui_files/common_server.py	/^def start_server():$/;"	f
+swap_implementations	tests/abstraction_check.py	/^def swap_implementations(impl):$/;"	f
+t	gui_files/static/js/runtime~main.a8a9905a.js	/^!function(e){function r(r){for(var n,f,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)f=i[c],o[f]&&s.push(o[f][0]),o[f]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=f(f.s=t[0]))}return e}var n={},o={1:0},u=[];function f(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,f),t.l=!0,t.exports}f.m=e,f.c=n,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,r){if(1&r&&(e=f(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)f.d(t,n,function(r){return e[r]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="\/";var i=window.webpackJsonp=window.webpackJsonp||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var p=l;t()}([]);$/;"	f
+test	tests/01.py	/^test = {$/;"	v
+test	tests/02.py	/^test = {$/;"	v
+test	tests/03.py	/^test = {$/;"	v
+test	tests/04.py	/^test = {$/;"	v
+test	tests/05.py	/^test = {$/;"	v
+test	tests/06.py	/^test = {$/;"	v
+test	tests/07.py	/^test = {$/;"	v
+test	tests/08.py	/^test = {$/;"	v
+test	tests/09.py	/^test = {$/;"	v
+test	tests/10.py	/^test = {$/;"	v
+time	cats.py	/^def time(game, player_num, word_index):$/;"	f
+time	tests/abstraction_check.py	/^time = lambda u, v, w: u.b[v][w]$/;"	v
+time_per_word	cats.py	/^def time_per_word(times_per_player, words):$/;"	f
+token_reader	gui_files/leaderboard_integrity.py	/^def token_reader(fail):$/;"	f
+token_writer	gui_files/leaderboard_integrity.py	/^def token_writer(f):$/;"	f
+trace	ucb.py	/^def trace(fn):$/;"	f
+visit_Call	tests/construct_check.py	/^    def visit_Call(self, node):$/;"	m	class:ExclusionChecker
+visit_FunctionDef	tests/construct_check.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:ExclusionChecker
+visit_Module	tests/construct_check.py	/^    def visit_Module(self, node):$/;"	m	class:ExclusionChecker
+word_at	cats.py	/^def word_at(game, word_index):$/;"	f
+word_at	tests/abstraction_check.py	/^word_at = lambda u, v: u.a[v]$/;"	v
+wpm	cats.py	/^def wpm(typed, elapsed):$/;"	f
+wrap	gui_files/common_server.py	/^    def wrap(f):$/;"	f	function:forward_to_server
+wrap	gui_files/common_server.py	/^    def wrap(f):$/;"	f	function:route
+wrapped	gui_files/common_server.py	/^        def wrapped(*args, **kwargs):$/;"	f	function:forward_to_server.wrap
+wrapped	gui_files/common_server.py	/^    def wrapped(*args, **kwargs):$/;"	f	function:server_only
+wrapped	gui_files/common_server.py	/^    def wrapped(data):$/;"	f	function:sendto
+wrapped	gui_files/common_server.py	/^    def wrapped(func_or_path):$/;"	f	function:path_optional
+wrapped	gui_files/leaderboard_integrity.py	/^        def wrapped(*, token, **kwargs):$/;"	f	function:token_reader.decorator
+wrapped	gui_files/leaderboard_integrity.py	/^    def wrapped(*args, **kwargs):$/;"	f	function:require_fernet
+wrapped	gui_files/leaderboard_integrity.py	/^    def wrapped(*args, **kwargs):$/;"	f	function:token_writer
+wrapped	ucb.py	/^    def wrapped(*args, **kwds):$/;"	f	function:trace
+wrapped_handler	gui_files/common_server.py	/^        def wrapped_handler(handler=handler):$/;"	f	function:start_server
